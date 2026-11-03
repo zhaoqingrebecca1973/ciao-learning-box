@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CIAO Learning Box (CLB) - Complete 5-Inch UI Prototype Suite</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        ciaoBlue: '#0052CC',
+                        ciaoLightBlue: '#E6F0FF',
+                        ciaoGreen: '#10B981',
+                        ciaoLightGreen: '#ECFDF5',
+                        ciaoBg: '#FFFFFF',
+                        ciaoCard: '#F8FAFC',
+                        ciaoBorder: '#CBD5E1',
+                        ciaoText: '#0F172A',
+                        ciaoMuted: '#64748B'
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-slate-100 text-ciaoText font-sans antialiased p-6">
+
+    <header class="max-w-7xl mx-auto mb-8 text-center">
+        <!-- REDESIGNED STRIKING HERO COVER SECTION -->
+        <div class="bg-gradient-to-r from-blue-600 via-indigo-600 to-teal-500 text-white p-10 rounded-3xl shadow-2xl mb-6 relative overflow-hidden text-left flex flex-col md:flex-row justify-between items-center">
+            <div class="absolute -right-12 -bottom-12 opacity-10 text-[180px]">🐬</div>
+            <div class="z-10 max-w-2xl">
+                <div class="inline-flex items-center space-x-2 bg-white/20 backdrop-blur-md px-4 py-1.5 rounded-full text-xs font-extrabold tracking-wider uppercase mb-4 border border-white/30 text-yellow-300">
+                    <span>✨ Next-Gen Educational Hardware Terminal V1.0</span>
+                </div>
+                <h1 class="text-4xl md:text-6xl font-black tracking-tight mb-4 leading-tight">
+                    CIAO Learning Box
+                </h1>
+                <p class="text-xl md:text-2xl font-bold text-blue-100 mb-6 leading-snug">
+                    "AI-Assisted Self-Study for More Practice — 100% Zero Distraction, Pure Parent Peace of Mind."
+                </p>
+                <div class="flex flex-wrap items-center gap-3 text-xs font-bold">
+                    <span class="bg-white text-ciaoBlue px-4 py-2 rounded-xl shadow-md flex items-center space-x-1.5">
+                        <span>🤖</span><span>Socratic AI Mentor</span>
+                    </span>
+                    <span class="bg-white/10 backdrop-blur-md border border-white/30 px-4 py-2 rounded-xl flex items-center space-x-1.5 text-white">
+                        <span>🛡️</span><span>Blocked Internet & Social Feeds</span>
+                    </span>
+                    <span class="bg-white/10 backdrop-blur-md border border-white/30 px-4 py-2 rounded-xl flex items-center space-x-1.5 text-white">
+                        <span>📝</span><span>Tactile A4 Paper + OCR</span>
+                    </span>
+                </div>
+            </div>
+            <div class="mt-8 md:mt-0 z-10 bg-white/10 backdrop-blur-md border border-white/30 p-6 rounded-2xl text-center shadow-inner min-w-[240px]">
+                <div class="text-5xl mb-2">🎁</div>
+                <div class="text-sm font-bold text-yellow-300 uppercase tracking-widest">Parent Choice Award</div>
+                <div class="text-2xl font-extrabold mt-1">100% Safe Study</div>
+                <div class="text-xs text-blue-100 mt-1">No Browser • No Games • Pure Focus</div>
+            </div>
+        </div>
+
+        <h2 class="text-xl font-extrabold text-ciaoBlue tracking-tight">Complete 5-Inch Landscape UI Prototype Suite (Light Mode, High Contrast)</h2>
+        <p class="text-sm text-ciaoMuted mt-1">White Base, Deep Black Text, Soft Blue/Green Accents for Ultimate Eye Comfort. Fully aligned with URS V1.0.</p>
+    </header>
+
+    <main class="max-w-7xl mx-auto space-y-12">
+
+        <!-- 1. STUDENT HOME PAGE -->
+        <section class="bg-white border-2 border-ciaoBorder rounded-2xl shadow-xl p-6">
+            <div class="flex justify-between items-center mb-4 border-b pb-3">
+                <h2 class="text-lg font-bold text-ciaoBlue">1) Student Home Page (Landscape Hardware Terminal)</h2>
+                <span class="text-xs bg-ciaoLightBlue text-ciaoBlue px-3 py-1 rounded-full font-semibold">5" Landscape Display</span>
+            </div>
+            <div class="w-[800px] h-[480px] bg-ciaoBg border-4 border-slate-800 rounded-3xl mx-auto p-4 flex flex-col justify-between shadow-inner relative">
+                <!-- Top Header -->
+                <div class="flex justify-between items-center border-b border-ciaoBorder pb-2">
+                    <div class="flex items-center space-x-2">
+                        <span class="text-xl">🐬</span>
+                        <span class="font-bold text-lg">CIAO Assistant</span>
+                    </div>
+                    <div class="flex items-center space-x-4">
+                        <span class="text-sm font-semibold bg-ciaoLightBlue px-3 py-1 rounded-md">⚡ AI Energy: 125 Credits (~$5.00 USD)</span>
+                        <div class="flex items-center space-x-1 border-l pl-3 border-ciaoBorder">
+                            <span class="text-xs font-bold">Male, 14</span>
+                            <div class="w-6 h-6 bg-slate-200 rounded-full flex items-center justify-center text-xs">👦</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 4 Grid Cards -->
+                <div class="grid grid-cols-2 gap-4 my-2">
+                    <div class="bg-ciaoCard border border-ciaoBorder p-3 rounded-xl shadow-sm">
+                        <div class="flex justify-between items-center mb-1">
+                            <span class="font-bold text-sm">🔥 Today's Progress</span>
+                            <span class="text-xs bg-ciaoLightGreen text-ciaoGreen font-bold px-2 py-0.5 rounded">94%</span>
+                        </div>
+                        <p class="text-xs text-ciaoMuted">• 7-Day Streak Achieved!<br>• 45 Mins Focused Today</p>
+                    </div>
+                    <div class="bg-ciaoCard border border-ciaoBorder p-3 rounded-xl shadow-sm">
+                        <div class="flex justify-between items-center mb-1">
+                            <span class="font-bold text-sm">📝 Pending Homework</span>
+                            <span class="text-xs bg-ciaoLightBlue text-ciaoBlue font-bold px-2 py-0.5 rounded">A4 Ready</span>
+                        </div>
+                        <p class="text-xs text-ciaoMuted">• Math Worksheet (Ch. 4)<br>• [📸 Scan A4 Paper]</p>
+                    </div>
+                    <div class="bg-ciaoCard border border-ciaoBorder p-3 rounded-xl shadow-sm">
+                        <span class="font-bold text-sm block mb-1">📓 Wrong Question Bank</span>
+                        <p class="text-xs text-ciaoMuted">• 14 Items Saved (4-Yr Sync)<br>• Review Recommended</p>
+                    </div>
+                    <div class="bg-ciaoCard border border-ciaoBorder p-3 rounded-xl shadow-sm">
+                        <span class="font-bold text-sm block mb-1">💬 Sandboxed Communication</span>
+                        <p class="text-xs text-ciaoMuted">• Teacher & Classmate Group (2)<br>• Feeds & Games Blocked 🚫</p>
+                    </div>
+                </div>
+
+                <!-- Bottom Mic Bar -->
+                <div class="bg-ciaoLightGreen border border-ciaoGreen rounded-xl p-3 text-center shadow-sm">
+                    <span class="font-bold text-sm text-ciaoGreen">🎙️ HOLD TO SPEAK / ASK AI (Socratic Tutor Active)</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- 2. STUDENT INTERACTIVE SUB-MODULES -->
+        <section class="bg-white border-2 border-ciaoBorder rounded-2xl shadow-xl p-6">
+            <div class="flex justify-between items-center mb-4 border-b pb-3">
+                <h2 class="text-lg font-bold text-ciaoBlue">2) Student Interactive Sub-Modules (Voice, Generation, Camera, Grading, Wrong Book, Socratic)</h2>
+                <span class="text-xs bg-ciaoLightBlue text-ciaoBlue px-3 py-1 rounded-full font-semibold">Landscape Workflow Suite</span>
+            </div>
+            
+            <div class="grid grid-cols-2 gap-6">
+                <!-- 2.A Microphone / Voice Command Page -->
+                <div class="w-full bg-ciaoBg border-4 border-slate-800 rounded-3xl p-4 flex flex-col justify-between h-[450px]">
+                    <div class="flex justify-between items-center border-b pb-2"><span class="font-bold text-sm">Voice Command Processing</span><span class="text-xs text-ciaoBlue">Qwen / Gemini</span></div>
+                    <div class="text-center my-auto">
+                        <div class="w-16 h-16 bg-ciaoLightBlue text-ciaoBlue rounded-full flex items-center justify-center mx-auto mb-3 text-2xl animate-pulse">🎙️</div>
+                        <p class="text-sm font-semibold">Heard Your Command:</p>
+                        <p class="text-xs italic text-ciaoMuted mt-1">"Generate 10 advanced quadratic equation questions"</p>
+                        <div class="w-3/4 bg-slate-200 h-2 rounded-full mx-auto mt-4 overflow-hidden"><div class="bg-ciaoBlue h-full w-4/5"></div></div>
+                        <span class="text-[10px] text-ciaoMuted mt-1 block">AI Generation Progress: 80%</span>
+                    </div>
+                    <div class="text-center text-xs text-ciaoMuted bg-slate-50 p-2 rounded border">USB-A A4 Printer Ready</div>
+                </div>
+
+                <!-- 2.B AI Test Generation Review Page -->
+                <div class="w-full bg-ciaoBg border-4 border-slate-800 rounded-3xl p-4 flex flex-col justify-between h-[450px]">
+                    <div class="flex justify-between items-center border-b pb-2"><span class="font-bold text-sm">AI Test Generation Review</span><span class="text-xs text-ciaoBlue">Review before printing</span></div>
+                    <div class="space-y-2 text-xs overflow-y-auto max-h-[300px] pr-1">
+                        <div class="bg-ciaoCard p-2 rounded border"><strong>Q1 (Medium):</strong> Solve $2x^2 + 2yx = 3$, $ax - 5y = 10$</div>
+                        <div class="bg-ciaoCard p-2 rounded border"><strong>Q2 (Easy):</strong> Find angle $A60$ in geometry triangle problem.</div>
+                        <div class="bg-ciaoCard p-2 rounded border"><strong>Topic:</strong> Quadratic Equations | Difficulty Mix: [Medium]</div>
+                    </div>
+                    <div class="flex space-x-2">
+                        <button class="flex-1 border border-ciaoBlue text-ciaoBlue py-2 rounded-lg font-bold text-xs">○ RE-GENERATE</button>
+                        <button class="flex-1 bg-ciaoBlue text-white py-2 rounded-lg font-bold text-xs">● CONFIRM & PRINT</button>
+                    </div>
+                </div>
+
+                <!-- 2.C Camera & Scanning Page -->
+                <div class="w-full bg-ciaoBg border-4 border-slate-800 rounded-3xl p-4 flex flex-col justify-between h-[450px]">
+                    <div class="flex justify-between items-center border-b pb-2"><span class="font-bold text-sm">500M AF Camera View</span><span class="text-xs text-ciaoGreen font-bold">● Live Optical Frame</span></div>
+                    <div class="border-2 border-dashed border-ciaoBlue rounded-xl h-48 flex flex-col items-center justify-center bg-slate-50 my-auto">
+                        <span class="text-3xl mb-1">📷</span>
+                        <span class="text-xs font-semibold text-ciaoBlue">Position A4 Written Paper Flat Under Lens</span>
+                        <span class="text-[10px] text-ciaoMuted mt-1">Top Rotatable Camera Active</span>
+                    </div>
+                    <button class="bg-ciaoBlue text-white py-2 rounded-xl font-bold text-xs">CAPTURE & INITIATE OCR</button>
+                </div>
+
+                <!-- 2.D AI Grading & Socratic Tutoring Page -->
+                <div class="w-full bg-ciaoBg border-4 border-slate-800 rounded-3xl p-4 flex flex-col justify-between h-[450px]">
+                    <div class="flex justify-between items-center border-b pb-2"><span class="font-bold text-sm">Socratic AI Guidance & Grading</span><span class="text-xs bg-amber-100 text-amber-800 px-2 rounded">Review Required</span></div>
+                    <div class="bg-ciaoCard p-3 rounded-xl border text-xs space-y-2">
+                        <div class="flex justify-between"><strong>OCR Result:</strong><span class="text-ciaoGreen font-bold">8/10 Correct</span></div>
+                        <p class="text-ciaoMuted italic">"Great work on Step 1! Take a close look at $(x-3)^2$ in Step 2—what happens when we expand the terms?"</p>
+                    </div>
+                    <div class="bg-ciaoLightBlue p-2 rounded-lg text-center text-xs text-ciaoBlue font-semibold">
+                        💡 Socratic Hint: Guiding student without leaking final answer.
+                    </div>
+                    <button class="bg-ciaoGreen text-white py-2 rounded-xl font-bold text-xs">CONTINUE DISCUSSION / NEXT QUESTION</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- 3. PARENT / TEACHER PORTAL & ASSIGNMENT UPLOAD (WITH PROMPT) -->
+        <section class="bg-white border-2 border-ciaoBorder rounded-2xl shadow-xl p-6">
+            <div class="flex justify-between items-center mb-4 border-b pb-3">
+                <h2 class="text-lg font-bold text-ciaoBlue">3) Parent / Teacher Portal & Assignment Upload (With AI Prompt Configuration)</h2>
+                <span class="text-xs bg-ciaoLightBlue text-ciaoBlue px-3 py-1 rounded-full font-semibold">Management Console</span>
+            </div>
+            
+            <div class="w-[800px] bg-ciaoBg border-4 border-slate-800 rounded-3xl mx-auto p-4 space-y-4">
+                <div class="flex justify-between items-center border-b pb-2">
+                    <span class="font-bold text-sm">Parent & Teacher Portal - Management Console</span>
+                    <span class="text-xs bg-emerald-100 text-emerald-800 px-2 py-0.5 rounded font-bold">Multi-tenant (SN: CLB-SG-2026-9982)</span>
+                </div>
+
+                <!-- Assignment Upload & Prompt Engine -->
+                <div class="bg-ciaoCard border p-3 rounded-xl space-y-2">
+                    <span class="font-bold text-xs text-ciaoBlue block">📄 Courseware / Assignment Upload & AI Prompt Builder</span>
+                    <div class="flex space-x-2">
+                        <div class="flex-1 border-2 border-dashed border-ciaoBorder rounded-lg p-3 text-center text-xs text-ciaoMuted">
+                            Drag & Drop PDF / Image here or <span class="text-ciaoBlue underline">Browse Files</span>
+                        </div>
+                        <div class="w-1/2 bg-white border p-2 rounded-lg text-xs space-y-1">
+                            <span class="font-bold block text-[11px]">Custom AI Socratic Prompt:</span>
+                            <textarea class="w-full h-12 text-[10px] border rounded p-1 text-slate-700 bg-slate-50" readonly>Focus on secondary math quadratic concepts. Never reveal direct answers; enforce step-by-step Socratic questioning.</textarea>
+                        </div>
+                    </div>
+                    <div class="flex justify-end">
+                        <button class="bg-ciaoBlue text-white text-xs px-4 py-1.5 rounded-lg font-bold">Upload & Push to Device</button>
+                    </div>
+                </div>
+
+                <!-- IM & Sandbox Control -->
+                <div class="grid grid-cols-2 gap-3 text-xs">
+                    <div class="bg-ciaoCard border p-3 rounded-xl">
+                        <span class="font-bold block mb-1">💬 Sandboxed Communication Control</span>
+                        <p class="text-ciaoMuted">WeChat/WhatsApp Mode: <span class="text-ciaoGreen font-bold">[🟢 Enabled]</span></p>
+                        <p class="text-[10px] text-ciaoMuted mt-1">Strict Filter: Feeds 🚫 | Games 🚫 | Mini-Progs 🚫 | Text/Audio 🟢</p>
+                    </div>
+                    <div class="bg-ciaoCard border p-3 rounded-xl">
+                        <span class="font-bold block mb-1">⚡ Quick Billing & Auto-Pay Status</span>
+                        <p class="text-ciaoMuted">Balance: 125 Credits (~$5.00 USD)</p>
+                        <p class="text-[10px] text-ciaoMuted mt-1">Mode: ○ Auto-Pay | ● Invoice Pay-Later</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 4. DASHBOARD PAGE -->
+        <section class="bg-white border-2 border-ciaoBorder rounded-2xl shadow-xl p-6">
+            <div class="flex justify-between items-center mb-4 border-b pb-3">
+                <h2 class="text-lg font-bold text-ciaoBlue">4) Comprehensive Analytics Dashboard Page</h2>
+                <span class="text-xs bg-ciaoLightBlue text-ciaoBlue px-3 py-1 rounded-full font-semibold">Shared Parent/Teacher/Student View</span>
+            </div>
+
+            <div class="w-[800px] bg-ciaoBg border-4 border-slate-800 rounded-3xl mx-auto p-4 space-y-3">
+                <div class="flex justify-between items-center border-b pb-2">
+                    <span class="font-bold text-sm">Learning Analytics & Performance Dashboard</span>
+                    <span class="text-xs text-ciaoMuted">Time Range: [ Past 30 Days ▾ ]</span>
+                </div>
+                <div class="grid grid-cols-3 gap-3 text-xs">
+                    <div class="bg-ciaoCard border p-3 rounded-xl">
+                        <span class="font-bold text-ciaoBlue block">Weekly Study Duration</span>
+                        <span class="text-xl font-extrabold block mt-1">12.5 Hrs</span>
+                        <span class="text-[10px] text-ciaoGreen font-semibold">↑ +15% vs last week</span>
+                    </div>
+                    <div class="bg-ciaoCard border p-3 rounded-xl">
+                        <span class="font-bold text-ciaoBlue block">HW Completion Rate</span>
+                        <span class="text-xl font-extrabold block mt-1">94%</span>
+                        <span class="text-[10px] text-ciaoMuted">Total 32 Tasks Completed</span>
+                    </div>
+                    <div class="bg-ciaoCard border p-3 rounded-xl">
+                        <span class="font-bold text-amber-600 block">Weakest Knowledge Area</span>
+                        <span class="text-xs font-bold block mt-1">Quadratic Equations</span>
+                        <span class="text-[10px] text-amber-700 underline cursor-pointer">Trigger Socratic Review →</span>
+                    </div>
+                </div>
+                <div class="bg-ciaoCard border p-3 rounded-xl text-xs">
+                    <span class="font-bold block mb-1">📊 Usage & AI Energy Distribution Chart</span>
+                    <div class="h-16 bg-white border rounded flex items-end px-2 space-x-2 py-1">
+                        <div class="flex-1 bg-ciaoBlue rounded-t" style="height: 40%" title="Grading"></div>
+                        <div class="flex-1 bg-ciaoGreen rounded-t" style="height: 75%" title="Socratic Tutoring"></div>
+                        <div class="flex-1 bg-amber-500 rounded-t" style="height: 30%" title="Test Generation"></div>
+                        <div class="flex-1 bg-purple-500 rounded-t" style="height: 60%" title="OCR Scanning"></div>
+                    </div>
+                    <div class="flex justify-between text-[10px] text-ciaoMuted mt-1">
+                        <span>Grading (40%)</span><span>Socratic Tutor (75%)</span><span>Test Gen (30%)</span><span>OCR (60%)</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 5 & 6. AUTO-PAY & BILLING CENTER PAGES -->
+        <section class="bg-white border-2 border-ciaoBorder rounded-2xl shadow-xl p-6">
+            <div class="flex justify-between items-center mb-4 border-b pb-3">
+                <h2 class="text-lg font-bold text-ciaoBlue">5 & 6) Auto-Pay Setup, Usage & Monthly Billing Invoice Pages</h2>
+                <span class="text-xs bg-ciaoLightBlue text-ciaoBlue px-3 py-1 rounded-full font-semibold">Financial & Settlement Gateway</span>
+            </div>
+
+            <div class="grid grid-cols-2 gap-6 w-[800px] mx-auto">
+                <!-- 5. Auto-Pay & Credits Center -->
+                <div class="bg-ciaoBg border-4 border-slate-800 rounded-3xl p-4 flex flex-col justify-between">
+                    <div class="border-b pb-2"><span class="font-bold text-sm">Credits Purchase & Auto-Pay</span></div>
+                    <div class="space-y-3 my-2 text-xs">
+                        <div class="bg-ciaoLightBlue p-3 rounded-xl border border-ciaoBlue">
+                            <span class="font-bold block text-ciaoBlue">Current Balance: 125 Credits</span>
+                            <span class="text-[11px] text-ciaoMuted">Estimated Value: ~$5.00 USD (Est. 7 Days Remaining)</span>
+                        </div>
+                        <div class="space-y-1">
+                            <label class="font-bold block text-[11px]">Settlement Mode:</label>
+                            <div class="flex items-center space-x-2"><input type="radio" checked name="paymode"><span><strong>Auto-Pay Mode:</strong> Top up $10 when balance < 20%</span></div>
+                            <div class="flex items-center space-x-2"><input type="radio" name="paymode"><span><strong>Invoice Pay-Later:</strong> Monthly consolidated bill</span></div>
+                        </div>
+                    </div>
+                    <button class="bg-ciaoBlue text-white py-2 rounded-xl font-bold text-xs">TOP-UP NOW (STRIPE / PAYNOW)</button>
+                </div>
+
+                <!-- 6. Monthly Billing & Invoices -->
+                <div class="bg-ciaoBg border-4 border-slate-800 rounded-3xl p-4 flex flex-col justify-between">
+                    <div class="border-b pb-2"><span class="font-bold text-sm">Monthly Invoices & Receipts</span></div>
+                    <div class="space-y-2 text-xs overflow-y-auto max-h-[220px]">
+                        <div class="bg-ciaoCard p-2 rounded border flex justify-between items-center">
+                            <div><strong>Inv #2026-10</strong><br><span class="text-[10px] text-ciaoMuted">Oct 01 - Oct 31 • $15.00 USD</span></div>
+                            <span class="bg-ciaoLightGreen text-ciaoGreen font-bold px-2 py-0.5 rounded text-[10px]">PAID</span>
+                        </div>
+                        <div class="bg-ciaoCard p-2 rounded border flex justify-between items-center">
+                            <div><strong>Inv #2026-09</strong><br><span class="text-[10px] text-ciaoMuted">Sep 01 - Sep 30 • $12.50 USD</span></div>
+                            <span class="bg-ciaoLightGreen text-ciaoGreen font-bold px-2 py-0.5 rounded text-[10px]">PAID</span>
+                        </div>
+                    </div>
+                    <button class="border border-ciaoBlue text-ciaoBlue py-2 rounded-xl font-bold text-xs">DOWNLOAD ALL PDF RECEIPTS</button>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="max-w-7xl mx-auto mt-12 text-center text-xs text-ciaoMuted pb-8 border-t pt-4">
+        CIAO Learning Box (CLB) System Design & UI Mockup Suite V1.0 • Designed for High Clarity and Educational Excellence
+    </footer>
+
+</body>
+</html>
